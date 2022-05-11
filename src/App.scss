@@ -13,6 +13,13 @@ body{
                 font-size:1.5rem;
                 margin-right: 10px;
                 list-style-type: none;
+                a{
+                    text-decoration: none;
+                    color: #ccc;
+                }
+                a.active{
+                    color: yellow;
+                }
             }
         }
     }
